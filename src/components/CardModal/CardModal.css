@@ -1,0 +1,59 @@
+.card__modal{
+    color: #023047;
+}
+
+.card__modal-header{
+    color: #d4f0fc;
+    background-color: #023047;
+}
+
+.card__modal-title{
+    font-size: 26px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.card__modal-body{
+    background-color: #d4f0fc;   
+}
+
+.card__modal-body p{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.card__modal-body ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__modal-body li{
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 4px;
+    color: #FB8500;
+    width: 30%;
+
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 90px;
+    font-weight: bold;
+
+    border: 3px solid #FFB703;
+    border-radius: 10px;
+    
+}
+
+.card__modal-body li:hover, .card__modal-body li:active{
+    color: #d4f0fc;
+    background-color: #023047;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: .8s;
+}

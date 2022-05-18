@@ -1,0 +1,15 @@
+.header{
+    background-color: #02577a;
+    padding: 10px;
+    color: #d4f0fc;
+}
+
+.header h1{
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.header h3{
+    font-size: 26px;
+    line-height: 32px;
+}
