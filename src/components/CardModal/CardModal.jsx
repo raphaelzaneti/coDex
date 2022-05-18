@@ -16,7 +16,6 @@ export default function CardModal(props) {
                 <div className="modal-body card__modal-body">
                     <p>Uses</p>
                     <ul>
-                        
                         {
                             Array.isArray(usesArr) ?
                                 usesArr.map((e, i) => <li key={i}>{e}</li>)
